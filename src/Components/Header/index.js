@@ -2,14 +2,22 @@ import React from "react";
 import LogoIcon from "../SVG/LogoIcon";
 import Menu from "../Menu";
 import Contacts from "../Contacts";
+import Wrapper from "../Wrapper";
+import Line from "../Line";
+import CartIcon from "../CartIcon";
 
-export const Header = () => {
+
+const Header = () => {
     return (
-      <header className="flex space-x-5 h-[116px] w-[1440px]">
+      <Wrapper>
+      <header className="flex h-[116px]">
        <LogoIcon />
        <Menu />
-       <Contacts className='cursor-pointer' />
+       <Contacts />
+       <Line />
+       <CartIcon />
       </header>
+      </Wrapper>
     );
   };
 
