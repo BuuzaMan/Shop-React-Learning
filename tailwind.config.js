@@ -28,10 +28,11 @@ module.exports = {
     
      extend: {
         colors: {
-          
+          'red': '#FF0000	'
         }
      }
     
   },  
   plugins: [],
-}
+} 
+
