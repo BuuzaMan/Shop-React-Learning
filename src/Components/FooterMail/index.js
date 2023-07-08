@@ -6,13 +6,13 @@ import { ReactComponent as Geoposition } from "../../Components/FooterImage/geop
 const Mail = () => {
     return (
 
-        <div className="">
+        <div className="leading-7">
             <div className="flex">
                 <Icon />  &nbsp;  <Mail1 />
             </div>
 
             <div className="flex">
-                <Geoposition /> &nbsp; Г.МИНСК, УЛ.НИКОЛЬСКАЯ, 2А
+                <Geoposition /> &nbsp; Г.МИНСК, <br/> УЛ.НИКОЛЬСКАЯ, 2А
             </div>
 
         </div>

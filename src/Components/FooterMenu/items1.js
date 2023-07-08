@@ -9,11 +9,11 @@ let items1 = [
 
 const Items1 = () => {
     return (
-        <div className="font-NotoSans font-light text-1xsF text-[#F6F6F6] text-left  leading-6 ">
+        <div className="font-NotoSans font-light text-1xsF text-[#F6F6F6] text-left  leading-7 ">
             {items1.map(item => (
 
                 <div key={item.id}>
-                    <button>
+                    <button  className="text-left">
                         {item.name}
                     </button>
                 </div>
