@@ -12,7 +12,8 @@ root.render(
     <RouterProvider router={router}>
       <App />
     </RouterProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 reportWebVitals();

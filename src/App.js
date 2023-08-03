@@ -1,10 +1,13 @@
 import Header from "./Components/Header";
-import React from "react";
+import Wrapper from "./Components/Wrapper";
+
 
 function App() {
   return (
-    <Header />
-  )
+    <Wrapper>
+      <Header />
+    </Wrapper>
+  );
 } 
 
 export default App;
