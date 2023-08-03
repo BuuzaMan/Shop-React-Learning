@@ -1,0 +1,26 @@
+.searchForm {
+    color: black; 
+    width: 353px;
+    height: 59px;
+    border: none;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 30px 0px 0px 30px;
+    outline: none;
+}
+
+.searchButton {
+    margin-top: 5px;
+    width: 50px;
+    height: 59px;
+    border: none;
+    background: white;
+    text-align: center;
+    color: #eeeeee;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    font-size: 20px;
+    }
+
+
+
