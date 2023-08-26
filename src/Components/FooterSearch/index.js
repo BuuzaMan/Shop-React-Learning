@@ -4,10 +4,10 @@ import { ReactComponent as Search } from "../FooterImage/search.svg";
 export const FooterSearch = () => {
     return (
         <div> 
-            <div className="">
-                <form className={"flex flex-1"}>
+            <div>
+                <form className={"flex font-NotoSans text-[12px] font-light uppercase tracking-wide"}>
                     <input className={"" + styles.searchForm}
-                    placeholder="Поиск по сайту"/>
+                    placeholder="ПОИСК ПО САЙТУ"/>
                     <button className={"" + styles.searchButton} > 
 
                 <Search/>

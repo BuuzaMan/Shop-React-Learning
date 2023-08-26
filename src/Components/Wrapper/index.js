@@ -2,7 +2,7 @@ import React from 'react'
 
 const Wrapper = ({ children }) => {
   return (
-    <div className='flex container mx-auto'>{ children }</div>
+    <div className='relative h-full container mx-auto'>{ children }</div>
   )
 }
 

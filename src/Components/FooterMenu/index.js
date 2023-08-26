@@ -2,9 +2,8 @@
 
 export const FooterMenu = (props) => {
     return (
-        <div className="font-NotoSans font-normal mb-4 text-2xsF text-[#FFFFFF]">
+        <div className="font-NotoSans font-normal desktop:text-[16px] desktop:leading-[1.4rem] desktop:tracking-[.020em] text-[#FFFFFF] w-[120px]">
         <h3> {props.title} </h3>
-        <h2> </h2>
         </div>
     )
 }

@@ -1,20 +1,14 @@
-import { ReactComponent as Mail1 } from "../../Components/FooterImage/mail.svg";
 import { ReactComponent as Icon } from "../../Components/FooterImage/mailIcon.svg";
-import { ReactComponent as Geoposition } from "../../Components/FooterImage/geoposition.svg";
 
 
 const Mail = () => {
     return (
 
-        <div className="leading-7">
-            <div className="flex">
-                <Icon />  &nbsp;  <Mail1 />
+        <div className="w-[200px] h-[18px]">
+            <div className="flex absolute gap-[8px]">
+                <Icon />
+                <div className="font-NotoSans desktop:text-[13px] tablet:text-[13px] mobile:text-[13px] font-light leading-4 tracking-wide uppercase">SHOP@LADYS-FASHION.RU</div>
             </div>
-
-            <div className="flex">
-                <Geoposition /> &nbsp; Г.МИНСК, <br/> УЛ.НИКОЛЬСКАЯ, 2А
-            </div>
-
         </div>
 
     )

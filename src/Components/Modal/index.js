@@ -25,7 +25,7 @@ function Modal({ open, onClose }) {
            </div>
            <div>
              <div className="flex absolute desktop:w-[193px] desktop:h-[364px] desktop:left-[829px] desktop:inset-0 tablet:w-[193px] tablet:h-[364px] tablet:left-[633px] tablet:mt-[175px] mobile:mt-[156px] mobile:left-[15px] mobile:w-[111px] mobile:h-[244px]">
-               <p><Items /></p>
+              <p onClick={onClose}><Items /></p>
              </div>
              <div className="flex flex-col absolute desktop:w-[137px] desktop:h-[81px] desktop:left-[829px] desktop:bottom-[115px] desktop:gap-y-4 tablet:left-[633px] tablet:bottom-[130px] tablet:gap-y-4 mobile:mt-[450px] mobile:left-[15px] mobile:gap-y-4">
                <div className='flex flex-col'>

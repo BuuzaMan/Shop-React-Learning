@@ -9,7 +9,7 @@ let items1 = [
 
 const Items1 = () => {
     return (
-        <div className="font-NotoSans font-light text-1xsF text-[#F6F6F6] text-left  leading-7 ">
+        <div className="flex flex-col gap-y-[10px] font-NotoSans font-light text-[12px] leading-4 text-[#F6F6F6] tracking-[0.015em] desktop:w-[109px] tablet:w-[109px] desktop:h-[184px]">
             {items1.map(item => (
 
                 <div key={item.id}>
