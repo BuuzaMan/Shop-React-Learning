@@ -9,7 +9,7 @@ function App() {
   <Wrapper>
     <Header />
     <Outlet />
-    
+    <Footer />
   </Wrapper>
   )
 } 

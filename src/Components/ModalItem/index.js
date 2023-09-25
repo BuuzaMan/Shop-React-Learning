@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 let items = [
     { id:1, name: 'КАТАЛОГ', link: "catalog"},
-    { id:2, name: 'О SAY YES', link: 'a'},
-    { id:3, name: 'АКЦИИ', link: 'a'},
-    { id:4, name: 'АДРЕСА', link:'a'},
-    { id:5,name: 'ДОСТАВКА', link: 'a'}
+    { id:2, name: 'О SAY YES', link: 'about'},
+    { id:3, name: 'АКЦИИ', link: 'promo'},
+    { id:4, name: 'АДРЕСА', link:'adress'},
+    { id:5,name: 'ДОСТАВКА', link: 'delivery'}
 ]
 
 

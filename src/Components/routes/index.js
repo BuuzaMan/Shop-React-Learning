@@ -1,7 +1,8 @@
-import { createBrowserRouter } from "react-router-dom";
+import { Outlet, createBrowserRouter } from "react-router-dom";
 import App from "../../App";
 import Catalog from "./catalog";
 import Bustier from "./Bustier";
+
 
 
 
@@ -12,12 +13,18 @@ const router = createBrowserRouter([
       children: [
         {
         path: "/catalog",
-        element: <Catalog />,
-        },
-        {
-        path: "catalog/bustier",
-        element: <Bustier /> 
-        }
+        element: <Outlet />,
+        children: [
+           {
+            path: "",
+            element: <Catalog />,
+           },
+           {
+            path: "bustier",
+            element: <Bustier />
+           }
+           
+        ]}
       ]
     }
   ]);
