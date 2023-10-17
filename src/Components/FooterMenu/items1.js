@@ -9,7 +9,7 @@ let items1 = [
 
 const Items1 = () => {
     return (
-        <div className="font-NotoSans font-light text-1xsF text-[#F6F6F6] text-left  leading-7 ">
+        <div className="font-NotoSans600 font-[300] text-3xs text-[#F6F6F6] text-left  leading-7 ">
             {items1.map(item => (
 
                 <div key={item.id}>
@@ -17,7 +17,6 @@ const Items1 = () => {
                         {item.name}
                     </button>
                 </div>
-
             ))}
         </div>
     )

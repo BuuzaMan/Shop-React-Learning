@@ -6,7 +6,7 @@ let items3 = [
 
 const Items3 = () => {
     return (
-        <div className="font-NotoSans font-light  text-1xsF text-[#F6F6F6] text-left leading-7">
+        <div className="font-NotoSans400 font-light  text-3xs text-[#F6F6F6] text-left leading-7">
             {items3.map(item => (
                 
                     <div key={item.id}><button className="text-left">{item.name}</button></div>
